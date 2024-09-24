@@ -1,0 +1,20 @@
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.btnn{
+    background-color: #EEEEEE;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width:600px){
+    .buttons{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
